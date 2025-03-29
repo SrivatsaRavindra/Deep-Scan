@@ -42,7 +42,7 @@ This project was built with the following technologies:
 This dataset exclusively focuses on **Indian faces** across multiple high-visibility domains!
 ### Dataset Creation Pipeline
 1. **Real Images Collection**:
-   - Downloaded images of prominent figures from Google of these:
+   - Downloaded images of prominent figures from:
      - Bollywood (Actors)
      - Business Leaders (Tech CEOs, Entrepreneurs)
      - Daily Soap Actors
