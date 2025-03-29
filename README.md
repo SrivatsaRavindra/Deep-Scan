@@ -19,7 +19,6 @@ A CNN-based model for detecting deepfake images
   - [Prerequisites](#prerequisites)
 - [Web Interface](#web-interface)
 - [Roadmap](#roadmap)
-- [Contact](#contact)
 
 
 ## About The Project
@@ -188,10 +187,4 @@ We continue our commitment to improving and expanding the capabilities of Deep-S
 
 
 
-## Contact
-
-If you have any questions or suggestions, feel free to reach out to us:
-
-- Raise an issue on the repository: [GitHub Repository](https://github.com/SrivatsaRavindra/Deep-Scan)
-- Connect with us on: [Email](srivatsaravindra04@gmail.com)
 
