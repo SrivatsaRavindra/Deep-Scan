@@ -92,8 +92,10 @@ This dataset provides **three critical advantages** over existing benchmarks:
   ```
 
   If python has been installed correctly, your terminal should display the version of python installed on your machine.
-3. Ensure all the nessasary packages are installed
-  Use 'pip install' to install any packages required. For Example
+3. Ensure all the nessasary packages are installed.
+
+  Use 'pip install' to install any packages required.
+  For Example
   ```sh
   pip install tenserflow
   ```
