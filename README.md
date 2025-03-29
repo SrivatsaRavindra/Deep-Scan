@@ -118,52 +118,6 @@ This dataset provides **three critical advantages** over existing benchmarks:
 
 
 
-## Web Interface 
-
-Please follow the following steps for successful installation:
-
-1. **Clone the Repository:** Get started by cloning the repository to your local machine.
-
-   ```
-   https://github.com/ShaanCoding/makeread.me
-   ```
-
-2. **Install Frontend Packages:** Navigate to the &quot;/frontend&quot; directory and install the required yarn packages by executing the following command in your terminal:
-
-   ```sh
-   yarn install
-   ```
-
-3. **Install Backend Packages:** Similarly, navigate to the &quot;/backend&quot; directory and install the required yarn packages by executing the following command in your terminal:
-
-   ```sh
-   yarn install
-   ```
-
-4. **Set Up Environment:**
-
-   - In the &quot;/backend&quot; directory, copy the content of &quot;.env.example&quot; file and create a new file named &quot;.env&quot;. Adjust the environment variables according to your requirements or you can leave them as it is.
-
-   - Navigate to &quot;frontend/api/generated/readMeGenerator.ts&quot; and set the BASE parameter to your backend API route. For instance, if you are running backend on your local server at port 8080, you should set:
-
-     ```javascript
-     BASE: "http://localhost:8080/api";
-     ```
-
-5. **Run the Backend:** Navigate to &quot;/backend&quot; directory and type the following command in your terminal to run your backend server:
-
-   ```sh
-   yarn dev
-   ```
-
-6. **Run the Frontend:** Finally, navigate to &quot;/frontend&quot; directory and type the following command in your terminal to run your frontend server:
-
-   ```sh
-   yarn dev
-   ```
-
-   Now, your application should be successfully up and running!)))
-
 ## Roadmap
 
 The roadmap includes both completed and future goals. Here&#39;s what we have accomplished and looking forward to:
