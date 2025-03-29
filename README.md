@@ -1,7 +1,7 @@
 # Deep-Scan
 <br/>
 <div align="center">
-<a href="https://github.com/SrivatsaRavindra">
+<a href="https://github.com/SrivatsaRavindra/Deep-Scan">
 </a>
 <p align="center">
 A CNN-based model for detecting deepfake images
@@ -19,11 +19,8 @@ A CNN-based model for detecting deepfake images
   - [Prerequisites](#prerequisites)
 - [Web Interface](#web_interface)
 - [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
-- [Acknowledgments](#acknowledgments)
-- [Notice](#notice)
+
 
 ## About The Project
 
