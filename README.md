@@ -13,7 +13,7 @@ A CNN-based model for detecting deepfake images
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [About The Project](#about-the-project)
+- [About The Project](https://github.com/SrivatsaRavindra/Deep-Scan/edit/main/README.md#about-the-project)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -59,30 +59,31 @@ This dataset exclusively focuses on **Indian faces** across multiple high-visibi
    - Created deepfakes using [Roop](https://github.com/s0md3v/roop)
    - [Face Swapping Script](Roop_Face_Swap(Fake_Images).py) (Roop implementation)
 
-(### Dataset Statistics
+### Dataset Statistics
 | Category       | Count | Source Breakdown          |
 |----------------|-------|---------------------------|
-| Real Images    | 92,122| Bollywood (40%), Politicians (20%), Others (40%)|
-| Fake Images    | 92,122| Uniformly distributed swaps across all categories|)
+| Real Images    | 92,122| Bollywood, Politicians, and Others |
+| Fake Images    | 92,122| Distributed swaps across all categories|
 
 ### Why This Dataset?
 This dataset provides **three critical advantages** over existing benchmarks:
 
 1. **Diversity in Ethnicity/Context**:
-   - Covers Indian/Asian faces (often underrepresented in Western datasets)
+   - Covers Indian faces (often underrepresented in Western datasets)
    - Includes varied lighting conditions (studio shots vs. public appearances)
 
 2. **Real-World Testing Ground**:
    - Politicians/Celebrities are common deepfake targets
    - Business leaders represent "high-stakes" verification scenarios
+   - Personalised( The dataset consists of our own images plus consented images of known people
 
 3. **Controlled Artifacts**:
    - Roop-generated fakes exhibit consistent manipulation patterns
 
 
 ## Prerequisites
-
-1. This project requires python to be installed in your system. If you don&#39;t have it installed, you can follow these steps:
+1. Install Dataset 
+2. This project requires python to be installed in your system. If you don&#39;t have it installed, you can follow these steps:
 
 - Install python [Python](https://www.python.org/downloads/)
 - Run the installer and check the box for "Add Python to PATH" before clicking "Install Now."
@@ -93,7 +94,7 @@ This dataset provides **three critical advantages** over existing benchmarks:
   ```
 
   If python has been installed correctly, your terminal should display the version of python installed on your machine.
-2. Ensure all the nessasary packages are installed
+3. Ensure all the nessasary packages are installed
   Use 'pip install' to install any packages required. For Example
   ```sh
   pip install tenserflow
@@ -104,18 +105,16 @@ This dataset provides **three critical advantages** over existing benchmarks:
   ```sh
   pip install tqmd
   ```
-3. Install Jupiter Notebook (To use ipynb).
+4. Install Jupiter Notebook (To use ipynb).
   
 (((## Model Development 
 
-- Pre-Processing.
-- CNN architecture used (layers, activation functions,
-optimizers, etc.)
-- Training and validation strategy implemented (train-test
-split, augmentation, etc.)
-- Regularization and hyperparameter tuning considered for
-generalization and robustness
--Proper choice of Loss Function etc.
+- Pre-Processing: Data images were of variable size, resacled it to 512x512 (link to the file)
+- Pre Trained model ResNet50 is used train the CNN model
+- Optimizer: Adam, Activation functions: ReLU and Sigmoid.
+- Train-val-test split into 80:10:10 ratio
+- For generalization and robustness of the model we have used regularization technique (L1 regularization) and hyperparameter tuning.
+- Loss Function 
 
 )))
 
@@ -170,24 +169,20 @@ Please follow the following steps for successful installation:
 
 The roadmap includes both completed and future goals. Here&#39;s what we have accomplished and looking forward to:
 
-- [x] Add backend swagger generation
-- [x] Add backend
-- [x] Set up CI/CD on railway
-- [x] Allow dynamic input field generation based off a JSON file
-  - [x] Textarea
-  - [x] Input
-  - [x] Objects
-  - [x] Array
-- [x] Allow users to set the order of components or delete them
-- [x] Allow templating via Nunjucks
-- [x] Add Plausible Analytics
-- [x] Add old readme generator template
-- [ ] Add more templates
-- [ ] Move rendering logic to the backend with debounce
-- [x] Replace useEffect with react query
-- [ ] Add caching
-- [ ] Write up README best practice articles
-- [ ] Avoid key collisions when using non-unique-names as Ids in templates
+- [x] Data Creation
+- [ ] Add more data to the data set
+- [x] Data Preprocessing
+  - [x] Face Crop
+  - [x] Filtered out the Unprocessed Fake images.
+  - [x] Resized the variable sized images.
+- [x] Model Development
+  - [x] CNN
+  - [x] Pretrained model (ResNet)
+  - [ ] More Accurate Model Building using RNN, GANS etc
+  - [ ] Integrate video/audio deepfake detection
+- [ ] Publish cleaned Indian-face dataset (public subset)
+- [ ] 
+    
 
 We continue our commitment to improving and expanding the capabilities of makeread.me to provide an efficient and seamless readme generation experience to our users.
 
