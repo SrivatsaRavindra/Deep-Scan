@@ -27,6 +27,7 @@ A CNN-based model for detecting deepfake images
 DeepFakeDetector tackles the growing threat of AI-generated deepfakes by leveraging a custom dataset of real and synthetic images. Unlike generic models, this project:
 
 -Uses Roop-generated deepfakes for realistic training data.
+
 -Combines public figures (celebrities, politicians) with private consented images (not shared publicly).
 
 ### Built With
