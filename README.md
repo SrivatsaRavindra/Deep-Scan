@@ -53,7 +53,7 @@ This dataset exclusively focuses on **Indian faces** across multiple high-visibi
      - Musicians (Indian)
    - Private consented images (not shared publicly)
    - [Image Downloader Script](Download_Real_images.py) (Google Images scraping)
-   - [Face Cropping Script](scripts/crop_faces.py) (Haar Cascade/MediaPipe)
+   - [Face Cropping Script](Face_Crop.ipynb) (Haar Cascade/MediaPipe)
 
 2. **Fake Images Generation**:
    - Created deepfakes using [Roop](https://github.com/s0md3v/roop)
