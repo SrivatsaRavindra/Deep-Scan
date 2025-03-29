@@ -52,7 +52,7 @@ This dataset exclusively focuses on **Indian faces** across multiple high-visibi
      - Cricketers (Indian Players)
      - Musicians (Indian)
    - Private consented images (not shared publicly)
-   - [Image Downloader Script](Download_Real_images.py) (Google Images scraping)
+   - [Image Downloader Script](Download_Real_Images.py) (Google Images scraping)
    - [Face Cropping Script](Face_Crop.ipynb) (Haar Cascade/MediaPipe)
 
 2. **Fake Images Generation**:
