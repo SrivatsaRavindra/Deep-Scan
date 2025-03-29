@@ -109,10 +109,10 @@ This dataset provides **three critical advantages** over existing benchmarks:
   
 ## Model Development 
 
-- **Pre-Processing**: Data images were of variable size, resacled it to 512x512 (link to the file)
-- **Pre Trained model**: ResNet50 is used train the CNN model
-- **Optimizer**: Adam
-- **Activation functions**: ReLU and Sigmoid.
+- **Pre-Processing**: Data images were of variable size, rescaled it to 512x512 (link to the file)
+- **Pre Trained model**: ResNet50 is used to train the CNN model
+- **Optimizer**: Adam 
+- **Activation functions**: ReLU and Sigmoid are used as Activation Functions.
 - **Train-val-test**: split into 80:10:10 ratio
 - For generalization and robustness of the model we have used regularization technique (L1 regularization) and hyperparameter tuning.
 - **Loss Function**:
