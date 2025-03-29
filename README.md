@@ -109,12 +109,13 @@ This dataset provides **three critical advantages** over existing benchmarks:
   
 ## Model Development 
 
-- Pre-Processing: Data images were of variable size, resacled it to 512x512 (link to the file)
-- Pre Trained model ResNet50 is used train the CNN model
-- Optimizer: Adam, Activation functions: ReLU and Sigmoid.
-- Train-val-test split into 80:10:10 ratio
+- **Pre-Processing**: Data images were of variable size, resacled it to 512x512 (link to the file)
+- **Pre Trained model**: ResNet50 is used train the CNN model
+- **Optimizer**: Adam
+- **Activation functions**: ReLU and Sigmoid.
+- **Train-val-test**: split into 80:10:10 ratio
 - For generalization and robustness of the model we have used regularization technique (L1 regularization) and hyperparameter tuning.
-- Loss Function 
+- **Loss Function**:
 
 
 
@@ -180,44 +181,17 @@ The roadmap includes both completed and future goals. Here&#39;s what we have ac
   - [ ] More Accurate Model Building using RNN, GANS etc
   - [ ] Integrate video/audio deepfake detection
 - [ ] Publish cleaned Indian-face dataset (public subset)
-- [ ] 
+- [x] Web development
     
 
 We continue our commitment to improving and expanding the capabilities of Deep-Scan to provide an efficient and seamless readme generation experience to our users.
 
-See the [open issues](https://github.com/ShaanCoding/makeread.me/issues) for a full list of proposed features (and known issues).
 
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag &quot;enhancement&quot;.
-Don&#39;t forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m &#39;Add some AmazingFeature&#39;`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the Mozilla Public License 2.0 License. See [Mozilla Public License 2.0 License](https://github.com/ShaanCoding/makeread.me/blob/main/LICENSE.md) for more information.
 
 ## Contact
 
 If you have any questions or suggestions, feel free to reach out to us:
 
-- Raise an issue on the repository: [GitHub Repository](https://github.com/ShaanCoding/makeread.me)
-- Connect with us on Twitter: [@ShaanCoding](https://twitter.com/ShaanCoding)
+- Raise an issue on the repository: [GitHub Repository](https://github.com/SrivatsaRavindra/Deep-Scan)
+- Connect with us on: [Email](srivatsaravindra04@gmail.com)
 
-## Acknowledgments
-
-A special thanks to the following for their contributions, support and inspiration:
-
-- [makeread.me](https://github.com/ShaanCoding/makeread.me)
-- [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
-
-## Notice
-
-This ReadMe was generated using [makeread.me](https://www.makeread.me/) 🚀
