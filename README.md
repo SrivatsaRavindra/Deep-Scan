@@ -104,6 +104,7 @@ This dataset provides **three critical advantages** over existing benchmarks:
   ```sh
   pip install tqmd
   ```
+3. Install Jupiter Notebook. 
   
 (((## Model Development 
 
