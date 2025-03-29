@@ -13,11 +13,11 @@ A CNN-based model for detecting deepfake images
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [About The Project](https://github.com/SrivatsaRavindra/Deep-Scan/edit/main/README.md#about-the-project)
+- [About The Project](#about_the_project)
   - [Built With](#built-with)
-- [Getting Started](#getting-started)
+- [Dataset Informnation](#dataset-information)
   - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+- [Web Interface](#web_interface)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
@@ -107,7 +107,7 @@ This dataset provides **three critical advantages** over existing benchmarks:
   ```
 4. Install Jupiter Notebook (To use ipynb).
   
-(((## Model Development 
+## Model Development 
 
 - Pre-Processing: Data images were of variable size, resacled it to 512x512 (link to the file)
 - Pre Trained model ResNet50 is used train the CNN model
@@ -116,10 +116,9 @@ This dataset provides **three critical advantages** over existing benchmarks:
 - For generalization and robustness of the model we have used regularization technique (L1 regularization) and hyperparameter tuning.
 - Loss Function 
 
-)))
 
 
-((### Installation
+## Web Interface 
 
 Please follow the following steps for successful installation:
 
@@ -184,7 +183,7 @@ The roadmap includes both completed and future goals. Here&#39;s what we have ac
 - [ ] 
     
 
-We continue our commitment to improving and expanding the capabilities of makeread.me to provide an efficient and seamless readme generation experience to our users.
+We continue our commitment to improving and expanding the capabilities of Deep-Scan to provide an efficient and seamless readme generation experience to our users.
 
 See the [open issues](https://github.com/ShaanCoding/makeread.me/issues) for a full list of proposed features (and known issues).
 
