@@ -12,12 +12,12 @@ A CNN-based model for detecting deepfake images
 
 ## Table of Contents
 
-- [Table of Contents](#table_of_contents)
-- [About The Project](#about_the_project)
-  - [Built With](#built_with)
-- [Dataset Informnation](#dataset_information)
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+  - [Built With](#built-with)
+- [Dataset Informnation](#dataset-information)
   - [Prerequisites](#prerequisites)
-- [Web Interface](#web_interface)
+- [Web Interface](#web-interface)
 - [Roadmap](#roadmap)
 - [Contact](#contact)
 
