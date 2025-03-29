@@ -184,7 +184,7 @@ The roadmap includes both completed and future goals. Here&#39;s what we have ac
 - [x] Web development
     
 
-We continue our commitment to improving and expanding the capabilities of Deep-Scan to provide an efficient and seamless readme generation experience to our users.
+We continue our commitment to improving and expanding the capabilities of Deep-Scan to provide an efficient and seamless experience to our users.
 
 
 
