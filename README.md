@@ -109,12 +109,16 @@ This dataset provides **three critical advantages** over existing benchmarks:
 ## Model Development 
 
 - **Pre-Processing**: Data images were of variable size, rescaled it to 512x512 (link to the file)
-- **Pre Trained model**: ResNet50 is used to train the CNN model
-- **Optimizer**: Adam 
+- We genarated 10,000 fake images using augmentation to balance real and fake images.
+- 
+- **Pre Trained model**: ResNet152 is used to train the CNN model
+- **Optimizer**: AdamW
 - **Activation functions**: ReLU and Sigmoid are used as Activation Functions.
 - **Train-val-test**: split into 80:10:10 ratio
 - For generalization and robustness of the model we have used regularization technique (L1 regularization) and hyperparameter tuning.
-- **Loss Function**:
+- To modify learning rate we used ReduceLNROnPlateu
+- We used EarlyStopping and Dropout primarily to prevent overfitting and improve model generalization.
+- **Loss Function**:Binary Cross Entropy
 
 
 
