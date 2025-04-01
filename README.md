@@ -159,6 +159,7 @@ This dataset provides **three critical advantages** over existing benchmarks:
 
 **Reason for this to happen**: If real images of celebrities were used for generating fake ones, then some visual patterns (like skin tone, lighting conditions, background noise) are unintentionally repeated in all sets.
 This could lead to data leakage, where validation/test samples have similarities to training data, causing the model to appear more accurate than it truly is.
+
 **How to Fix This?**:As we used real images to generate fake ones, we have to make sure that the same person’s images don’t appear in both training and validation/test sets.A better approach would be to generate completely separate fake images for validation and test using a different set of real images.
 
 ## Roadmap
