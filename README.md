@@ -59,8 +59,8 @@ This dataset exclusively focuses on **Indian faces** across multiple high-visibi
 ### Dataset Statistics
 | Category       | Count | Source Breakdown          |
 |----------------|-------|---------------------------|
-| Real Images    | 92,122| Bollywood, Politicians, and Others |
-| Fake Images    | 92,122| Distributed swaps across all categories|
+| Real Images    | 58527| Bollywood, Politicians, and Others |
+| Fake Images    | 58527| Distributed face swaps across all categories|
 
 ### Why This Dataset?
 This dataset provides **three critical advantages** over existing benchmarks:
@@ -119,6 +119,32 @@ This dataset provides **three critical advantages** over existing benchmarks:
 - To modify learning rate we used ReduceLNROnPlateu
 - We used EarlyStopping and Dropout primarily to prevent overfitting and improve model generalization.
 - **Loss Function**:Binary Cross Entropy
+
+## Model Architecture: Fine-Tuned ResNet152
+
+| Layer Type                | Output Shape       | Parameters |
+|---------------------------|--------------------|------------|
+| **ResNet152 (Pretrained)**| (7, 7, 2048)       | 58,232,928 |
+| GlobalAveragePooling2D    | (2048)             | 0          |
+| Dense (ReLU, 1024 units)  | (1024)             | 2,098,176  |
+| BatchNormalization        | (1024)             | 4,096      |
+| Dropout (0.5)             | (1024)             | 0          |
+| Dense (ReLU, 512 units)   | (512)              | 524,800    |
+| BatchNormalization        | (512)              | 2,048      |
+| Dropout (0.5)             | (512)              | 0          |
+| Dense (ReLU, 256 units)   | (256)              | 131,328    |
+| BatchNormalization        | (256)              | 1,024      |
+| Dropout (0.5)             | (256)              | 0          |
+| Dense (ReLU, 128 units)   | (128)              | 32,896     |
+| BatchNormalization        | (128)              | 512        |
+| Dropout (0.5)             | (128)              | 0          |
+| Dense (ReLU, 64 units)    | (64)               | 8,256      |
+| BatchNormalization        | (64)               | 256        |
+| Dropout (0.5)             | (64)               | 0          |
+| **Dense (Sigmoid, 1 unit)**| (1)                | 65         |
+| **Total Parameters**      | **60,988,385**     |            |
+| **Trainable Parameters**  | **Varies (last 30 layers unfrozen)** | |
+
 
 ## Model Evaluation and Performance
 - Training Accuracy: 56.28%, Loss: 0.715
