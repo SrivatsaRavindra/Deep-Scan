@@ -110,7 +110,7 @@ This dataset provides **three critical advantages** over existing benchmarks:
 
 - **Pre-Processing**: Data images were of variable size, rescaled it to 512x512 (link to the file)
 - We genarated 10,000 fake images using augmentation to balance real and fake images.
-- 
+- [Augmentation](augmented.py)
 - **Pre Trained model**: ResNet152 is used to train the CNN model
 - **Optimizer**: AdamW
 - **Activation functions**: ReLU and Sigmoid are used as Activation Functions.
